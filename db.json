@@ -1,0 +1,41 @@
+{
+  "student": [
+    {
+      "id": "1",
+      "name": "Usman",
+      "age": "32",
+      "email": "usman@gmail.com"
+    },
+    {
+      "name": "Atiq ",
+      "email": "atiq@gmail.com",
+      "age": "23",
+      "id": "4"
+    },
+    {
+      "name": "umair ",
+      "email": "umair@gmail.com",
+      "age": "32",
+      "id": "9"
+    },
+    {
+      "name": "sumair",
+      "email": "sumair@gmail.com",
+      "age": "21",
+      "id": "10"
+    },
+    {
+      "name": "Mohid",
+      "email": "mohid@gmail.com",
+      "age": "17",
+      "id": "50"
+    },
+    {
+      "name": "Mosib",
+      "email": "mosib@gmail.com",
+      "age": "20",
+      "id": "60"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
