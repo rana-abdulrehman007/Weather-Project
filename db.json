@@ -9,7 +9,7 @@
     {
       "name": "Atiq ",
       "email": "atiq@gmail.com",
-      "age": "23",
+      "age": "15",
       "id": "4"
     },
     {
@@ -35,6 +35,12 @@
       "email": "mosib@gmail.com",
       "age": "20",
       "id": "60"
+    },
+    {
+      "name": "Abdul",
+      "email": "abdul@gmail.com",
+      "age": "22",
+      "id": "56"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

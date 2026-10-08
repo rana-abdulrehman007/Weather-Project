@@ -1,4 +1,8 @@
+
+
+
 // import { createSlice } from "@reduxjs/toolkit"
+
 
 // const initialState = {
 //     cart:[]
@@ -23,3 +27,34 @@
 // })
 // export const{addtocart,removecart,clearcart}=cartslice.actions
 // export default cartslice.reducer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

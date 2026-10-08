@@ -4,10 +4,23 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css'
 import App from './App.jsx'
 
+
+import { Provider } from 'react-redux'      // Provider yahan se aata hai
+import store from './reduxtolkit/Store.jsx'       // apna store (default export ho to)
+
+
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+
+    <Provider store={store}>
+       <App />
+
+    </Provider>
   
-      <App />
-    
-  </StrictMode>,
+      {/* <App />  */}
+
+      
+     
+  </StrictMode>
 )

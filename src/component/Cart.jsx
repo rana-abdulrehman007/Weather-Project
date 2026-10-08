@@ -8,6 +8,9 @@
 //   const cart = useSelector((state) => state.cart.cart);
 
 //   const dispatch = useDispatch();
+
+  
+
 //   return (
 //     <div>
 
@@ -17,13 +20,14 @@
 //         cart.map((item,index) => (
 
 //           <div key={index}>
+//             <h2>{item.id}</h2>
 
-//             <h2>{item.name}</h2>
+//             <h2> name : {item.name}</h2>
 
 //             <p>Rs {item.price}</p>
 
 //             <button
-//               onClick={() => dispatch(removecart(item))}
+//               onClick={() => dispatch(removecart(item.id))}
 //             >
 //               Remove
 //             </button>
@@ -35,8 +39,6 @@
 
 //       }
 
-
-    
 
 // {      
 //         <button onClick={() => dispatch(clearcart())}>
